@@ -1,0 +1,44 @@
+<?php
+
+namespace {{namespace}};
+
+use Heloufir\SimpleWorkflow\Models\Workflow;
+use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\Relations\BelongsTo;
+
+class {{model}} extends Model
+{
+    protected $table = '{{table}}';
+    public $primaryKey = 'id';
+    public $timestamps = false;
+
+    /**
+     * Get the origin item attached to this object
+     *
+     * @return BelongsTo
+     */
+    public function origin(): BelongsTo
+    {
+        return $this->belongsTo('{{origin}}', 'refOrigin', 'id');
+    }
+
+    /**
+     * Get workflow attached to this object
+     *
+     * @return BelongsTo
+     */
+    public function workflow(): BelongsTo
+    {
+        return $this->belongsTo(Workflow::class, 'refWorkflow', 'id');
+    }
+
+    /**
+     * Get user attached to this object
+     *
+     * @return BelongsTo
+     */
+    public function user(): BelongsTo
+    {
+        return $this->belongsTo('{{user}}', 'refUser', 'id');
+    }
+}

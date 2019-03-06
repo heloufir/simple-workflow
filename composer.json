@@ -1,0 +1,28 @@
+{
+  "name": "heloufir/simple-workflow",
+  "description": "A simple implementation of a complete workflow system, allowing you to focus on your business logic and letting the package do the necessary work to make your workflow system work and easy to customize",
+  "type": "package",
+  "require": {
+    "doctrine/dbal": "^2.9"
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "EL OUFIR Hatim",
+      "email": "eloufirhatim@gmail.com"
+    }
+  ],
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Heloufir\\SimpleWorkflow\\SimpleWorkflowServiceProvider"
+      ]
+    }
+  },
+  "autoload": {
+    "psr-4": {
+      "Heloufir\\SimplePassport\\": "src/"
+    }
+  },
+  "minimum-stability": "dev"
+}

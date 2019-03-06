@@ -1,4 +1,4 @@
 # Laravel Simple Workflow
 <p align="center">
-  <img src="https://lh3.googleusercontent.com/-su9XdjAPmJw/XH-mrTEGuKI/AAAAAAAAEx0/yXyowC2JUsQqeERTN9kO6jiSj1qtEJRWwCLcBGAs/s0/cover-2.jpg%20%22cover-2.jpg%22" alt="Laravel Simple Workflow" />
+  <img src="https://lh3.googleusercontent.com/-oHD92sFiVIQ/XH-ovACBq3I/AAAAAAAAEyE/KXLAuXbcRycfjpPzXWQ5GNslGriwARWvQCLcBGAs/s0/cover-2.jpg "cover-2.jpg"" alt="Laravel Simple Workflow" />
 </p>

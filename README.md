@@ -51,6 +51,7 @@
 <p align="left">
   You can find several complex workflow management systems, or even very easy systems that are incomplete. This project is a generic abstraction with the features that any project that must implement a workflow system must have.
   <br/>
+  <br/>
   Why choose this project among others?
   <ul>
   <li>Quick installation, <b>2 commands only!!</b></li>
@@ -62,6 +63,7 @@
   </li>
   <li>Pre-defined REST APIs allowing to interact with the different models of the workflow system (data recovery, insertion, update and deletion)</li>
   <li>Paging utilities, adding specs to the model</li>
+  <li>Fully configured with a configuration file</li>
   <li>... and many other benefits....</li>
   </ul>
 </p>
@@ -71,7 +73,7 @@
 <p align="left">This project is carried out mainly with Laravel 5.8.*</p>
 
 <!-- GETTING STARTED -->
-<h1 id="getting-started">Getting starter</h1>
+<h1 id="getting-started">Getting started</h1>
 <p align="left">This section will guide you step by step to install configure the workflow system on your project</p>
 
 <!-- PREREQUISITES -->

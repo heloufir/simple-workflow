@@ -3,6 +3,7 @@
 namespace Heloufir\SimpleWorkflow\Http\Controllers;
 
 use App\Http\Controllers\Controller;
+use Heloufir\SimpleWorkflow\Core\BuilderSpecification;
 use Heloufir\SimpleWorkflow\Core\Paginator;
 use Heloufir\SimpleWorkflow\Models\Status;
 use Heloufir\SimpleWorkflow\Rules\StatusExists;
@@ -12,7 +13,7 @@ use Illuminate\Support\Facades\Validator;
 
 class StatusController extends Controller
 {
-    use Paginator;
+    use Paginator, BuilderSpecification;
 
     /**
      * Display a listing of the resource.
@@ -28,6 +29,7 @@ class StatusController extends Controller
     {
         $query = Status::query();
         $query->with(['workflowsFrom', 'workflowsTo']);
+        $query = $this->addSpecifications($query, $request);
         return response()->json(self::paginate($query, $request), 200);
     }
 

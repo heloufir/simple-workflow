@@ -3,6 +3,7 @@
 namespace Heloufir\SimpleWorkflow\Http\Controllers;
 
 use App\Http\Controllers\Controller;
+use Heloufir\SimpleWorkflow\Core\BuilderSpecification;
 use Heloufir\SimpleWorkflow\Core\Paginator;
 use Heloufir\SimpleWorkflow\Core\WorkflowSystem;
 use Heloufir\SimpleWorkflow\Models\Workflow;
@@ -16,7 +17,7 @@ use Illuminate\Support\Facades\Validator;
 
 class WorkflowController extends Controller
 {
-    use Paginator, WorkflowSystem;
+    use Paginator, WorkflowSystem, BuilderSpecification;
 
     /**
      * Display a listing of the resource.
@@ -32,6 +33,7 @@ class WorkflowController extends Controller
     {
         $query = Workflow::query();
         $query->with(['action', 'statusFrom', 'statusTo', 'module']);
+        $query = $this->addSpecifications($query, $request);
         return response()->json(self::paginate($query, $request), 200);
     }
 

@@ -3,6 +3,7 @@
 <p align="center">
   <a href="https://github.com/heloufir/simple-workflow">
     <img src="https://drive.google.com/uc?id=1bmiIFxsdjCs5q6Qd-xDlO67dvB8MwvJV&export=download" alt="Logo">
+    <!-- IMAGE LICENSE: https://www.kisspng.com/png-workflow-automation-business-process-organization-2395138/ -->
   </a>
 
   <h3 align="center">Laravel <b>Simple Workflow</b></h3>

@@ -102,6 +102,10 @@
 
 <!-- USAGE -->
 <h1 id="usage">Usage</h1>
+<p align="center">
+  <img src="https://drive.google.com/uc?id=1yD5PDEBWv9JgWtavs_yxdy7qA2pN1902&export=download" alt="Workflow system in 3 steps" width="700" />
+</p>
+<br/><br/>
 <p align="left">
   There are several features provided by this workflow system, please refer to the <a href="https://github.com/heloufir/simple-workflow/wiki">wiki</a> of this repository for more information on how to use this system and get an idea about it's different features.
 </p>

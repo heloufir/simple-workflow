@@ -115,7 +115,7 @@
     </li>
     <li>
       Commit your changes
-      <pre>git commit -m 'Add some AmazingFeature</pre>
+      <pre>git commit -m 'Add some AmazingFeature'</pre>
     </li>
     <li>
       Push to the branch

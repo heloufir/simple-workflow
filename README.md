@@ -8,7 +8,7 @@
   <h3 align="center">Laravel <b>Simple Workflow</b></h3>
 
   <p align="center">
-    A standard workflow system ready to use in 3 steps!
+    A standard workflow system ready to use in 3 steps! <b>Install</b> <img src="https://drive.google.com/uc?id=1h0f_-MtWg0tKQ1nM381zZyapbkIHFm3N&export=download" /> <b>Configure</b> <img src="https://drive.google.com/uc?id=1h0f_-MtWg0tKQ1nM381zZyapbkIHFm3N&export=download" /> <b>Use</b>
     <br />
     <a href="https://github.com/heloufir/simple-workflow/wiki"><strong>Explore the docs »</strong></a>
     <br />

@@ -2,6 +2,7 @@
   "name": "heloufir/simple-workflow",
   "description": "A simple implementation of a complete workflow system, allowing you to focus on your business logic and letting the package do the necessary work to make your workflow system work and easy to customize",
   "type": "package",
+  "version": "1.1",
   "require": {
     "doctrine/dbal": "^2.9"
   },
@@ -21,8 +22,8 @@
   },
   "autoload": {
     "psr-4": {
-      "Heloufir\\SimplePassport\\": "src/"
+      "Heloufir\\SimpleWorkflow\\": "src/"
     }
   },
-  "minimum-stability": "dev"
+  "minimum-stability": "stable"
 }

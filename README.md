@@ -110,6 +110,15 @@
   There are several features provided by this workflow system, please refer to the <a href="https://github.com/heloufir/simple-workflow/wiki">wiki</a> of this repository for more information on how to use this system and get an idea about it's different features.
 </p>
 
+<p align="left">
+  Or access directly to the installation, configuration and usage sections: 
+  <ul>
+    <li><a href="https://github.com/heloufir/simple-workflow/wiki/3.1.-Install-workflow">Install workflow</a></li>
+    <li><a href="https://github.com/heloufir/simple-workflow/wiki/3.2.-Configure-workflow">Configure workflow</a></li>
+    <li><a href="https://github.com/heloufir/simple-workflow/wiki/3.3.-Use-workflow">Use workflow</a></li>
+  </ul>
+</p>
+
 <!-- CONTRIBUTING -->
 <h1 id="contributing">Contributing</h1>
 <p align="left">

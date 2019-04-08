@@ -95,7 +95,7 @@
 <p align="left">After that you need to publish the package, to have access to it's configuration file:</p>
 
 ```
-  php artisan vendor:publish --provider=Heloufir\SimpleWorkflow\SimpleWorkflowServiceProvider
+  php artisan vendor:publish --provider="Heloufir\SimpleWorkflow\SimpleWorkflowServiceProvider"
 ```
 
 <p align="left">That's it, your are ready to use it. You see! I told you <b>2 commands only!!</b></p>
